@@ -241,3 +241,23 @@ display: none;
 color: #FFFFFF;
 background: var(--active-color);
 }
+
+/* EXAMPLES */
+
+.examples-list {}
+
+.example-item {}
+
+.example-title {
+    font-size: 18px;
+        line-height: 2.00;
+        letter-spacing: 0.06em;
+        color: var(--title-color);
+}
+
+.example-text {
+    font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: var(--main-text-color);
+}
