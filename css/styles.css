@@ -8,6 +8,8 @@
     --main-text-color: #757575;
     --title-color: #212121;
     --active-color: #2196F3;
+    --background-color: #F5F4FA;
+    --background-hero: #2F303A;
 }
 /* GLOBAL PAGE STYLES */
 body {
@@ -100,6 +102,7 @@ body {
 }
 
 .btn {
+    font-family: inherit;
     cursor: pointer
 }
 
@@ -147,7 +150,9 @@ body {
 
 /* OUR TEAM */
 
-.team {}
+.team {
+    background: var(--background-color);
+}
 
 .team-title {
     font-size: 36px;
@@ -159,7 +164,9 @@ body {
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background: #FFFFFF;
+}
 
 .team-subtitle {
     font-weight: 500;
@@ -233,7 +240,7 @@ display: none;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--title-color);
-        background: #F5F4FA;
+        background: var(--background-color);
         border-radius: 4px;
 }
 .filters-btn:hover,
