@@ -106,7 +106,9 @@ body {
 /* features */
 .features {}
 
-.features-title {}
+.features-title {
+    display: none;
+}
 
 .features-list {}
 
@@ -129,9 +131,9 @@ body {
 
 /* What we do? */
 
-.example {}
+.works {}
 
-.example-title {
+.works-title {
     font-size: 36px;
         line-height: 1.17;
         text-align: center;
@@ -139,9 +141,9 @@ body {
         color: var(--title-color);
 }
 
-.example-list {}
+.works-list {}
 
-.example-item {}
+.works-item {}
 
 /* OUR TEAM */
 
@@ -211,4 +213,31 @@ body {
 .address-link:hover,
 .address-link:focus {
     color: var(--active-color);
+}
+
+/* PORTFOLIO */
+.portfolio {}
+.portfolio-title {
+display: none;
+}
+/* FILTERS */
+
+.filters-list {}
+
+.filters-item {}
+
+.filters-btn {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--title-color);
+        background: #F5F4FA;
+        border-radius: 4px;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+color: #FFFFFF;
+background: var(--active-color);
 }
